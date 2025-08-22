@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
